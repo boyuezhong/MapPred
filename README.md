@@ -1,7 +1,6 @@
 # MapPred Standalone Package
-MapPred is a web server for deep learning-based prediction of protein residue contact map.  http://yanglab.nankai.edu.cn/mappred/
 
-##0. software required
+## 0. software required
 tensorflow
 keras
 python2 or python3
@@ -16,21 +15,21 @@ hmmer-3.1b2-linux-intel-x86_64
 
 CCMpred 
 
-##1. download the package
+## 1. download the package
 git clone https://github.com/AtlasWuqi/mappred.git
 
-##2. compile
+## 2. compile
 NOTICE: This step can be skipped if the OS is Ubuntu.
 cd src/
 make
 make install
 cd ../
 
-#4. Database required
+## 4. Database required
 Uniclust30, Uniref100 and Metagenome for MSA generator.
 nr for SS and SOLV.
 
-##5. configuration
+## 5. configuration
 specify the directory of softwares or databases in files: jackhmmer.sh msa-generator.sh runpsipredandsolv mappred.sh
 
 jackhmmer.sh and msa-generator.sh can be ignored if the MSA of a sequence is provided.
@@ -38,7 +37,7 @@ runpsipredandsolv can be ignored if the SS and SOLV of a sequence are provided.
 mappred.sh can be ignored if the CCMpred result of a sequence is provided.
 
 
-##6. Get started
+## 6. Get started
 usage: bin/mappred fastafile
 example: ./bin/mappred ./example/1NH2C.fasta
 output: ./example/1NH2C.mappred
