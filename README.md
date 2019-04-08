@@ -1,5 +1,5 @@
 # MapPred Standalone Package
-==================================
+
 ## 0. software required
 tensorflow <br />
 keras<br />
