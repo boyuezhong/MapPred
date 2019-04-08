@@ -1,10 +1,10 @@
 # MapPred Standalone Package
-
+==================================
 ## 0. software required
-tensorflow
-keras
-python2 or python3
-numpy
+tensorflow <br />
+keras<br />
+python2 or python3 <br />
+numpy <br />
 
 blast-2.2.26
 psipred-4.01
@@ -16,7 +16,7 @@ hmmer-3.1b2-linux-intel-x86_64
 CCMpred 
 
 ## 1. download the package
-git clone https://github.com/AtlasWuqi/mappred.git
+git clone https://github.com/AtlasWuqi/MapPred.git
 
 ## 2. compile
 NOTICE: This step can be skipped if the OS is Ubuntu.
