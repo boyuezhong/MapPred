@@ -6,7 +6,6 @@
 * python (2.x or 3.x) <br />
 * numpy <br />
 * h5py <br />
-<br />
 * [PSIPRED](http://bioinfadmin.cs.ucl.ac.uk/downloads/psipred/) <br />
 * [solvpred](http://bioinfadmin.cs.ucl.ac.uk/downloads/MetaPSICOV/) <br />
 * [CCMpred](https://github.com/soedinglab/CCMpred) <br />
@@ -16,10 +15,10 @@ git clone https://github.com/AtlasWuqi/MapPred.git <br />
 
 ## 2. Compile
 NOTICE: This step can be skipped if the OS is Ubuntu. <br />
-cd src/<br />
-make<br />
-make install<br />
-cd ../<br />
+cd src <br />
+make <br />
+make install <br />
+cd .. <br />
 
 ## 3. Get started
 usage: ./bin/mappred.sh alnfile [outputfile] [cuda] <br />
