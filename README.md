@@ -1,10 +1,10 @@
 # MapPred
 
 ## 0. Requirements
-* tensorflow <br />
-* keras<br />
-* python (2.x or 3.x) <br />
-* numpy <br />
+* Tensorflow (1.6+)<br />
+* [Keras](https://keras.io/) (2.1.3+)<br />
+* Python (2.7+ or 3.5+) <br />
+* Numpy <br />
 * h5py <br />
 * [PSIPRED](http://bioinfadmin.cs.ucl.ac.uk/downloads/psipred/) <br />
 * [solvpred](http://bioinfadmin.cs.ucl.ac.uk/downloads/MetaPSICOV/) <br />
@@ -29,4 +29,4 @@ a example can be found in file: ./start.sh<br />
 you can check the outputfile run by yourself and ./example/1NH2C.mappred.
 
 ## Reference
-Qi Wu, Zhenling Peng, Ivan Anishchenko, Qian Cong, David Baker, Jianyi Yang, Protein contact prediction using metagenome sequence data and residual neural networks, Bioinformatics, submitted (2018).
+Q Wu, Z Peng, I Anishchenko, Q Cong, D Baker, J Yang, Protein contact prediction using metagenome sequence data and residual neural networks, Bioinformatics, submitted (2018).
