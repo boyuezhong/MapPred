@@ -11,16 +11,13 @@ CC		= cc
 CFLAGS		= -O
 LIBS		= -lm
 
-all:		neff cov231stats
+all:		cov231stats
 
 install:
-		/bin/cp -f neff cov231stats ../bin
+		/bin/cp -f cov231stats ../bin
 
 clean:
-		/bin/rm -f neff cov231stats *.o
-
-neff:		neff.c
-		$(CC) $(CFLAGS) neff.c $(LIBS) -o neff
+		/bin/rm -f cov231stats *.o
 
 cov231stats:	cov231stats.c
 		$(CC) $(CFLAGS) cov231stats.c $(LIBS) -o cov231stats
