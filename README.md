@@ -14,7 +14,7 @@
 git clone https://github.com/AtlasWuqi/MapPred.git <br />
 
 ## 2. Compile
-NOTICE: This step can be skipped if the OS is Ubuntu. <br />
+<font color=red>NOTICE</font>: This step can be skipped if OS is Ubuntu. <br />
 cd src <br />
 make <br />
 make install <br />
@@ -31,9 +31,8 @@ example: ./bin/mappred.sh ./example/1NH2C.aln <br />
 * xxx.aln     : multiple sequence alignments(MSA) <br />
 Format Requirement for an MSA: <br />
 Please check out the example file (./example/1NH2C.aln) for a reference <br />
-Each line in the MSA is the protein primary sequence. All sequences shall have the same length when gaps are also counted. <br /> 
-The first sequence is the query sequence for which you would like to predict contacts. It shall not contain any gaps. The other sequences may contain gaps represented by '-'. <br />
-NOTICE: make sure .ss2 .solv .ccmpred ready under the same directory of .aln <br />
+Each line in the MSA is the protein primary sequence. All sequences shall have the same length when gaps are also counted. The first sequence is the query sequence for which you would like to predict contacts. It shall not contain any gaps. The other sequences may contain gaps represented by '-'. <br />
+<font color=red>NOTICE</font>: make sure .ss2 .solv .ccmpred ready under the same directory of .aln <br />
 
 ### Output:
 * xxx.mappred    : final contact map predicted by DeepMeta [text format] <br />
